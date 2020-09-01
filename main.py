@@ -4,7 +4,7 @@ def cpu_chooses():
     #Tasked - Jose
     #Create a random number between 1 - 3 for CPU to choose and assign it to a variable 'cpur'
     cpur = random.randint(1, 3)
-    #print(cpur)
+    print(cpur)
 
 def player_chooses():
     #Tasked - Sonny
