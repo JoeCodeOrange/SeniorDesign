@@ -6,8 +6,30 @@ def cpu_chooses():
 def player_chooses():
     #Tasked - Sonny
     #Ask User to choose Rock Paper or Scissors and save it as an int in variable 'r'
+    player_0 = 'user'
+    r = ''
+    choices = input('Choose Rock Paper or Scissors: \n')
+    if player_0 == 'Rock':
+        print('user chooses Rock')
+        player_0 = 'Rock'
+        r = player_0
+    elif player_0 == 'Paper':
+         print('user chooses Paper')
+         player_0 = 'Paper'
+         r = player_0
+    elif player_0 == 'Scissors':
+        print('user chooses Scissors')
+        player_0 = 'Scissors'
+        r = player_0
+    else:
+        print('try again')
+
+
+
+
     #Remember it comes in as a string so you need to convert it as an int.
-    pass
+r = int(r)
+
 
 ############## Welcome Section ###############
 print("\n#####################################")
