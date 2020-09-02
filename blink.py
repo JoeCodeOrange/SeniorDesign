@@ -8,4 +8,6 @@ GPIO.output(4, True)
 time.sleep(1)
 GPIO.output(4, False)
 
+print("TEST")
+
 GPIO.cleanup() # cleanup all GPIO 
