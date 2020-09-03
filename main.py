@@ -49,6 +49,8 @@ while replay == "Y" or replay == "y":
     player_chooses(r)
     win_lose(cpur,r)
     replay = input('Would you like to play again?')
+    if replay == "n" or replay == "N":
+        break
     
 print(cpur)
 print(r)
