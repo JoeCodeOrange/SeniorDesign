@@ -40,9 +40,9 @@ print("#                                   #")
 print("#####################################")
 
 
-replay = "y"
+replay = ""
 
-while replay == "Y" or replay == "y":
+while True:
     r = input('Choose Rock Paper or Scissors: \n')
     r = int(r)
     cpur = random.randint(1, 3) # Jose's Work
@@ -52,8 +52,7 @@ while replay == "Y" or replay == "y":
     if replay == "n" or replay == "N":
         break
     
-print(cpur)
-print(r)
+
 
 print("Thanks for playing!")
 
