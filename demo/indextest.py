@@ -37,7 +37,7 @@ servo5.start(0)
 servo6.start(0)
 servo7.start(0)"""
 servo8.start(0)
-servo9.start(0)
+servo9.start(2)
 print ("Waiting for 2 seconds")
 time.sleep(2)
 
@@ -81,8 +81,8 @@ servo4.ChangeDutyCycle(0)
 servo5.ChangeDutyCycle(0)
 servo6.ChangeDutyCycle(0)
 servo7.ChangeDutyCycle(0)"""
-servo8.ChangeDutyCycle(0)
-servo9.ChangeDutyCycle(0)
+servo8.ChangeDutyCycle(2)
+servo9.ChangeDutyCycle(2)
 
 #Clean things up at the end
 """servo0.stop()
