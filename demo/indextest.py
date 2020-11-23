@@ -56,8 +56,8 @@ servo4.ChangeDutyCycle(7)
 servo5.ChangeDutyCycle(7)
 servo6.ChangeDutyCycle(7)
 servo7.ChangeDutyCycle(7)
-servo8.ChangeDutyCycle(7)
-servo9.ChangeDutyCycle(7)
+"""servo8.ChangeDutyCycle(7)
+servo9.ChangeDutyCycle(7)"""
 time.sleep(2)
 
 #turn back to 0 degrees
@@ -70,8 +70,8 @@ servo4.ChangeDutyCycle(2)
 servo5.ChangeDutyCycle(2)
 servo6.ChangeDutyCycle(2)
 servo7.ChangeDutyCycle(2)
-servo8.ChangeDutyCycle(2)
-servo9.ChangeDutyCycle(2)
+"""servo8.ChangeDutyCycle(2)
+servo9.ChangeDutyCycle(2)"""
 time.sleep(0.5)
 """servo0.ChangeDutyCycle(0)
 servo1.ChangeDutyCycle(0)
@@ -81,8 +81,8 @@ servo4.ChangeDutyCycle(0)
 servo5.ChangeDutyCycle(0)
 servo6.ChangeDutyCycle(0)
 servo7.ChangeDutyCycle(0)
-servo8.ChangeDutyCycle(0)
-servo9.ChangeDutyCycle(0)
+"""servo8.ChangeDutyCycle(0)
+servo9.ChangeDutyCycle(0)"""
 
 #Clean things up at the end
 """servo0.stop()
@@ -93,8 +93,8 @@ servo4.stop()
 servo5.stop()
 servo6.stop()
 servo7.stop()
-servo8.stop()
-servo9.stop()
+"""servo8.stop()
+servo9.stop()"""
 GPIO.cleanup()
 print ("Goodbye")
 
