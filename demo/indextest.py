@@ -8,6 +8,7 @@ GPIO.setmode(GPIO.BOARD)
 
 # Set pin 11 as an output, and set servo1 as pin 11 as PWM
 GPIO.setup(11,GPIO.OUT)
+GPIO.setup(13,GPIO.OUT)
 servo1 = GPIO.PWM(11,50) # Note 11 is pin, 50 = 50Hz pulse
 servo2 = GPIO.PWM(13,50) # Note 11 is pin, 50 = 50Hz pulse
 
