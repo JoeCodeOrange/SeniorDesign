@@ -6,14 +6,14 @@ import time
 # Set GPIO numbering mode
 GPIO.setmode(GPIO.BOARD)
 
+GPIO.setup(3,GPIO.OUT)
+GPIO.setup(5,GPIO.OUT)
 GPIO.setup(11,GPIO.OUT)
 GPIO.setup(13,GPIO.OUT)
-GPIO.setup(15,GPIO.OUT)
-GPIO.setup(17,GPIO.OUT)
-servo0 = GPIO.PWM(11,50) # Note 11 is pin, 50 = 50Hz pulse
-servo1 = GPIO.PWM(13,50) # Note 13 is pin, 50 = 50Hz pulse
-servo2 = GPIO.PWM(15,50) # Note 15 is pin, 50 = 50Hz pulse
-servo3 = GPIO.PWM(17,50) # Note 17 is pin, 50 = 50Hz pulse
+servo0 = GPIO.PWM(3,50) # Note 11 is pin, 50 = 50Hz pulse
+servo1 = GPIO.PWM(5,50) # Note 13 is pin, 50 = 50Hz pulse
+servo2 = GPIO.PWM(11,50) # Note 15 is pin, 50 = 50Hz pulse
+servo3 = GPIO.PWM(13,50) # Note 17 is pin, 50 = 50Hz pulse
 
 #start PWM running, but with value of 0 (pulse off)
 servo0.start(0)
