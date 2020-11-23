@@ -48,23 +48,23 @@ duty = 2
 
 # Turn back to 90 degrees
 print ("Turning back to 90 degrees for 2 seconds")
-"""servo0.ChangeDutyCycle(7)"""
+"""servo0.ChangeDutyCycle(7)
 servo1.ChangeDutyCycle(7)
-servo2.ChangeDutyCycle(7)
+servo2.ChangeDutyCycle(7)"""
 servo3.ChangeDutyCycle(7)
 servo4.ChangeDutyCycle(10)
 servo5.ChangeDutyCycle(10)
 servo6.ChangeDutyCycle(10)
 servo7.ChangeDutyCycle(10)
-"""servo8.ChangeDutyCycle(7)"""
-servo9.ChangeDutyCycle(7)
+"""servo8.ChangeDutyCycle(7)
+servo9.ChangeDutyCycle(7)"""
 time.sleep(2)
 
 #turn back to 0 degrees
 print ("Turning back to 0 degrees")
-"""servo0.ChangeDutyCycle(2)"""
+"""servo0.ChangeDutyCycle(2)
 servo1.ChangeDutyCycle(2)
-servo2.ChangeDutyCycle(2)
+servo2.ChangeDutyCycle(2)"""
 servo3.ChangeDutyCycle(2)
 servo4.ChangeDutyCycle(2)
 servo5.ChangeDutyCycle(2)
@@ -73,21 +73,21 @@ servo7.ChangeDutyCycle(2)
 """servo8.ChangeDutyCycle(2)
 servo9.ChangeDutyCycle(2)"""
 time.sleep(0.5)
-"""servo0.ChangeDutyCycle(0)"""
+"""servo0.ChangeDutyCycle(0)
 servo1.ChangeDutyCycle(0)
-servo2.ChangeDutyCycle(0)
+servo2.ChangeDutyCycle(0)"""
 servo3.ChangeDutyCycle(0)
 servo4.ChangeDutyCycle(0)
 servo5.ChangeDutyCycle(0)
 servo6.ChangeDutyCycle(0)
 servo7.ChangeDutyCycle(0)
-"""servo8.ChangeDutyCycle(0)"""
-servo9.ChangeDutyCycle(0)
+"""servo8.ChangeDutyCycle(0)
+servo9.ChangeDutyCycle(0)"""
 
 #Clean things up at the end
-"""servo0.stop()"""
+"""servo0.stop()
 servo1.stop()
-servo2.stop()
+servo2.stop()"""
 servo3.stop()
 servo4.stop()
 servo5.stop()
