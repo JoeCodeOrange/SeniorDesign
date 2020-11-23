@@ -40,8 +40,8 @@ servo0.ChangeDutyCycle(7)
 servo1.ChangeDutyCycle(7)
 servo2.ChangeDutyCycle(7)
 servo3.ChangeDutyCycle(7)
-servo4.ChangeDutyCycle(7)
-servo5.ChangeDutyCycle(7)
+servo4.ChangeDutyCycle(9)
+servo5.ChangeDutyCycle(9)
 time.sleep(2)
 
 #turn back to 0 degrees
