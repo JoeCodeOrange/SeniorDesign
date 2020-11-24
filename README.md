@@ -1,3 +1,3 @@
 # SeniorDesign
-Markup : * Hardware Design3
-          * Test
+* Hardware Design3
+         * Test
