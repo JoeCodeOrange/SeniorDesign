@@ -69,11 +69,15 @@ servo4.ChangeDutyCycle(2)
 servo5.ChangeDutyCycle(2)
 servo6.ChangeDutyCycle(2)
 servo7.ChangeDutyCycle(2)
+servo8.ChangeDutyCycle(2)
+servo9.ChangeDutyCycle(5)
 time.sleep(0.5)
 servo4.ChangeDutyCycle(0)
 servo5.ChangeDutyCycle(0)
 servo6.ChangeDutyCycle(0)
 servo7.ChangeDutyCycle(0)
+servo8.ChangeDutyCycle(0)
+servo9.ChangeDutyCycle(0)
 
 time.sleep(2)
 
@@ -85,15 +89,13 @@ servo0.ChangeDutyCycle(2)
 servo1.ChangeDutyCycle(2)
 servo2.ChangeDutyCycle(3)
 servo3.ChangeDutyCycle(3)
-servo8.ChangeDutyCycle(2)
-servo9.ChangeDutyCycle(5)
+
 time.sleep(0.5)
 servo0.ChangeDutyCycle(0)
 servo1.ChangeDutyCycle(0)
 servo2.ChangeDutyCycle(0)
 servo3.ChangeDutyCycle(0)
-servo8.ChangeDutyCycle(0)
-servo9.ChangeDutyCycle(0)
+
 
 #Clean things up at the end
 servo0.stop()
