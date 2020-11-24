@@ -1,4 +1,15 @@
 # SeniorDesign
+
+* Team Members
+  * Jose Carvajal
+  * Sergio Tamez
+  * Jose Elizondo
+ * Advisors
+  * Dr. Marzieh Ayati - Software
+  * Dr. Weidong Kuang - Hardware
+ * Instructor
+  * Dr. Jae Sok Son
+
 * Hardware Design
   1. 3D Printing
   2. Electrical Components
