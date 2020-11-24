@@ -15,9 +15,9 @@
   
   # Construction
   
-  #Operating System
+  # Operating System
   
-  #Python
+  # Python
   
   # Troubleshooint and Testing
   
