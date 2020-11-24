@@ -4,13 +4,6 @@
   * Jose Carvajal
   * Sergio Tamez
   * Jose Elizondo
-  
- * Advisors
-  * Dr. Marzieh Ayati
-  * Dr. Weidong Kuang
-  
- * Instructor
-  * Dr. Jae Sok Son
 
 * Hardware Design
   1. 3D Printing
