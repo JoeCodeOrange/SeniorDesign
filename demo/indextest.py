@@ -48,8 +48,8 @@ duty = 2
 
 # Turn back to 90 degrees
 print ("Turning back to 90 degrees for 2 seconds")
-servo0.ChangeDutyCycle(8)
-servo1.ChangeDutyCycle(8)
+servo0.ChangeDutyCycle(9)
+servo1.ChangeDutyCycle(9)
 servo2.ChangeDutyCycle(10)
 servo3.ChangeDutyCycle(10)
 # servo4.ChangeDutyCycle(10)
