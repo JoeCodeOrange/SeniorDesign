@@ -49,7 +49,7 @@ time.sleep(2)
 duty = 2
 
 # Paper output
-print ("PAPER!")
+print ("Paper!")
 servo0.ChangeDutyCycle(9)
 servo1.ChangeDutyCycle(9)
 servo2.ChangeDutyCycle(10)
@@ -63,7 +63,7 @@ servo9.ChangeDutyCycle(7)
 time.sleep(2)
 
 # Scissors output
-print ("Turning back to 0 degrees")
+print ("Scissors!")
 
 servo4.ChangeDutyCycle(2)
 servo5.ChangeDutyCycle(2)
@@ -80,6 +80,7 @@ time.sleep(2)
 
 
 # Rock Output
+print ("Rock!")
 servo0.ChangeDutyCycle(2)
 servo1.ChangeDutyCycle(2)
 servo2.ChangeDutyCycle(3)
