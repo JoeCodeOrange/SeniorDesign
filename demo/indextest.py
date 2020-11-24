@@ -44,7 +44,6 @@ servo9.start(0)
 print ("Preparing motors")
 time.sleep(2)
 
-
 # Define variable duty
 duty = 2
 
@@ -60,6 +59,7 @@ servo6.ChangeDutyCycle(10)
 servo7.ChangeDutyCycle(10)
 servo8.ChangeDutyCycle(7)
 servo9.ChangeDutyCycle(7)
+
 time.sleep(2)
 
 # Scissors output
@@ -81,8 +81,6 @@ servo9.ChangeDutyCycle(0)
 
 time.sleep(2)
 
-
-
 # Rock Output
 print ("Rock!")
 servo0.ChangeDutyCycle(2)
@@ -91,6 +89,7 @@ servo2.ChangeDutyCycle(3)
 servo3.ChangeDutyCycle(3)
 
 time.sleep(0.5)
+
 servo0.ChangeDutyCycle(0)
 servo1.ChangeDutyCycle(0)
 servo2.ChangeDutyCycle(0)
