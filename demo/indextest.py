@@ -10,12 +10,12 @@ GPIO.setup(3,GPIO.OUT)
 GPIO.setup(5,GPIO.OUT)
 GPIO.setup(11,GPIO.OUT)
 GPIO.setup(13,GPIO.OUT)
-GPIO.setup(19,GPIO.OUT)
-GPIO.setup(21,GPIO.OUT)
-GPIO.setup(29,GPIO.OUT)
-GPIO.setup(31,GPIO.OUT)
-GPIO.setup(33,GPIO.OUT)
-GPIO.setup(35,GPIO.OUT)
+# GPIO.setup(19,GPIO.OUT)
+# GPIO.setup(21,GPIO.OUT)
+# GPIO.setup(29,GPIO.OUT)
+# GPIO.setup(31,GPIO.OUT)
+# GPIO.setup(33,GPIO.OUT)
+# GPIO.setup(35,GPIO.OUT)
 servo0 = GPIO.PWM(3,50) # Note 11 is pin, 50 = 50Hz pulse
 servo1 = GPIO.PWM(5,50) # Note 13 is pin, 50 = 50Hz pulse
 servo2 = GPIO.PWM(11,50) # Note 15 is pin, 50 = 50Hz pulse
