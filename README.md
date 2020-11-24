@@ -8,6 +8,7 @@
  * Advisors
   * Dr. Marzieh Ayati - Software
   * Dr. Weidong Kuang - Hardware
+  
  * Instructor
   * Dr. Jae Sok Son
 
