@@ -6,8 +6,8 @@
   * Jose Elizondo
   
  * Advisors
-  * Dr. Marzieh Ayati - Software
-  * Dr. Weidong Kuang - Hardware
+  * Dr. Marzieh Ayati
+  * Dr. Weidong Kuang
   
  * Instructor
   * Dr. Jae Sok Son
