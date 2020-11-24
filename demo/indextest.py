@@ -95,7 +95,7 @@ servo3.stop()
 # servo7.stop()
 # servo8.stop()
 # servo9.stop()
-# GPIO.cleanup()
+GPIO.cleanup()
 print ("Goodbye")
 
 
