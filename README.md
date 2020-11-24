@@ -4,6 +4,7 @@
   * Jose Carvajal
   * Sergio Tamez
   * Jose Elizondo
+  
  * Advisors
   * Dr. Marzieh Ayati - Software
   * Dr. Weidong Kuang - Hardware
